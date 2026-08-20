@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:wght@500;600&family=Work+Sans:wght@400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+    background-color: #f3f1eb;
+    color: #1d2b26;
+    line-height: 1.7;
+}
+
+h1,
+h2 {
+    font-family: 'Newsreader', serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #16261f;
+}
+
+header h1 {
+    color: #f3f1eb;
+    font-size: 1.6rem;
+
+}
+
+nav a {
+    color: #c7d6c9;
+    text-decoration: none;
+    margin-left: 24px;
+    font-weight: 500;
+}
+
+nav a:hover {
+    color: #ffffff;
+}
+
+#inicio {
+    background-color: #16261f;
+    color: #f3f1eb;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+#inicio h2 {
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+}
+
+#inicio p {
+    max-width: 600px;
+    margin: 0 auto;
+    color: #c7d6c9;
+}
+
+#inicio b {
+    color: #ffffff;
+}
+
+section {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+section h2 {
+    color: #2b4f46;
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+}
+
+#servico ul {
+    list-style: none;
+    text-align: left;
+}
+
+#servicos li {
+    background-color: #ffffff;
+    padding: 14px 20px;
+    border-radius: 6px;
+    margin-bottom: 12px;
+    border-left: 4px solid #3e6e86;
+}
+
+#comentarios {
+    background-color: #c7d6c9;
+    max-width: 100%;
+    padding: 70px 20px;
+}
+
+#comentarios ul {
+    list-style: none;
+    max-width: 680px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+#comentarios li {
+    background-color: #f3f1eb;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 18px;
+}
+
+#contato {
+    background-color: #16261f;
+    color: #f3f1eb;
+    max-width: 100%;
+    padding: 80px 20px;
+}
+
+#contato p {
+    color: #c7d6c9;
+    margin-bottom: 20px;
+}
+a[href^="https://wa.me"] {
+    display: inline-block;
+    padding: 14px 30px;
+    background-color: #25d366;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 600;
+}
